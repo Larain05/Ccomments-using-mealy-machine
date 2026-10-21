@@ -12,7 +12,7 @@ A Mealy machine in C# that recognizes C-style comments (`/* ... */`) over the al
 
 M = (Q, Σ, Δ, δ, λ, q0, F)
 
-- **Q** = {q0, q1, q2, q3, q4, D}
+- **Q** = {q0, q1, q2, q3, q4, q5}
 - **Σ** = {a, *, /}
 - **Δ** = {0, 1}
 - **δ**: transition function (next state)
@@ -31,34 +31,34 @@ A string is **accepted if the last output is 1**. The output is 1 only when the 
 | q2 | Inside the comment |
 | q3 | Inside the comment, just read a `*` |
 | q4 | Comment closed (end state) |
-| D | Trap state (invalid string or extra characters) |
+| q5 | Trap state (invalid string or extra characters) |
 
 ## Transition Table (next state | output)
 
 | State | `a` | `*` | `/` |
 |---|---|---|---|
-| → q0 | D \| 0 | D \| 0 | q1 \| 0 |
-| q1 | D \| 0 | q2 \| 0 | D \| 0 |
+| → q0 | q5 \| 0 | q5 \| 0 | q1 \| 0 |
+| q1 | q5 \| 0 | q2 \| 0 | q5 \| 0 |
 | q2 | q2 \| 0 | q3 \| 0 | q2 \| 0 |
 | q3 | q2 \| 0 | q3 \| 0 | **q4 \| 1** |
-| **q4 (end)** | D \| 0 | D \| 0 | D \| 0 |
-| D (trap) | D \| 0 | D \| 0 | D \| 0 |
+| **q4 (end)** | q5 \| 0 | q5 \| 0 | q5 \| 0 |
+| q5 (trap) | q5 \| 0 | q5 \| 0 | q5 \| 0 |
 
 ## Diagram
 
 Edge labels are `input | output`.
 
-![Mealy machine diagram](written.jpg)
+![Mealy machine diagram](images/written.jpg)
 
 ## Test Results
 
 ### Accepted
 
-![Accepted](accepted.png)
+![Accepted](images/accepted.png)
 
 ### Rejected
 
-![Rejected](rejected.png)
+![Rejected](images/rejected.png)
 
 ## Notes
 
