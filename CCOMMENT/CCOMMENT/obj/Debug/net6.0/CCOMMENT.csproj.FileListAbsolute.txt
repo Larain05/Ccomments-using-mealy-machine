@@ -1,0 +1,14 @@
+C:\Users\Lara\Downloads\Automata_Lab\CCOMMENT\CCOMMENT\bin\Debug\net6.0\CCOMMENT.exe
+C:\Users\Lara\Downloads\Automata_Lab\CCOMMENT\CCOMMENT\bin\Debug\net6.0\CCOMMENT.deps.json
+C:\Users\Lara\Downloads\Automata_Lab\CCOMMENT\CCOMMENT\bin\Debug\net6.0\CCOMMENT.runtimeconfig.json
+C:\Users\Lara\Downloads\Automata_Lab\CCOMMENT\CCOMMENT\bin\Debug\net6.0\CCOMMENT.dll
+C:\Users\Lara\Downloads\Automata_Lab\CCOMMENT\CCOMMENT\bin\Debug\net6.0\CCOMMENT.pdb
+C:\Users\Lara\Downloads\Automata_Lab\CCOMMENT\CCOMMENT\obj\Debug\net6.0\CCOMMENT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lara\Downloads\Automata_Lab\CCOMMENT\CCOMMENT\obj\Debug\net6.0\CCOMMENT.AssemblyInfoInputs.cache
+C:\Users\Lara\Downloads\Automata_Lab\CCOMMENT\CCOMMENT\obj\Debug\net6.0\CCOMMENT.AssemblyInfo.cs
+C:\Users\Lara\Downloads\Automata_Lab\CCOMMENT\CCOMMENT\obj\Debug\net6.0\CCOMMENT.csproj.CoreCompileInputs.cache
+C:\Users\Lara\Downloads\Automata_Lab\CCOMMENT\CCOMMENT\obj\Debug\net6.0\CCOMMENT.dll
+C:\Users\Lara\Downloads\Automata_Lab\CCOMMENT\CCOMMENT\obj\Debug\net6.0\refint\CCOMMENT.dll
+C:\Users\Lara\Downloads\Automata_Lab\CCOMMENT\CCOMMENT\obj\Debug\net6.0\CCOMMENT.pdb
+C:\Users\Lara\Downloads\Automata_Lab\CCOMMENT\CCOMMENT\obj\Debug\net6.0\CCOMMENT.genruntimeconfig.cache
+C:\Users\Lara\Downloads\Automata_Lab\CCOMMENT\CCOMMENT\obj\Debug\net6.0\ref\CCOMMENT.dll
