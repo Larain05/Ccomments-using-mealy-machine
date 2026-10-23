@@ -37,7 +37,7 @@ class MealyMachine
         return outputs;
     }
 
-    // Accepted if the last output is 1 (this happens exactly when we end in q4)
+    // Accepted if the last output is 1
     public bool Accepts(string input)
     {
         var outputs = Run(input);
